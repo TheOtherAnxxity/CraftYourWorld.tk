@@ -1,0 +1,42 @@
+* {
+   background-color: #c2f1ff;
+}
+#discord {
+  border-width: 0px;
+  background: transparent;
+  text-align: right;
+}
+body {
+  text-align: center;
+  color: aliceblue;
+}
+#logo {
+  width: 200;
+  height: 200;
+  text-align: center;
+  background-color:#c2f1ff;
+  background-size: cover;
+  padding:0px 200px;
+}
+h1.title {
+  font-family: verdana;
+  font-size: 25px;
+  color:#00ce27;
+  text-align: center;
+}
+h2.title{
+  color:#008cff;
+  text-align: center;
+}
+h4.title{
+  color:#008cff;
+  text-align: center;
+}
+#content{
+  color:#1e90ff;
+  text-align: center;
+}
+@font-face{
+  font-family: Minecrafter;
+  src: url(Minecrafter_Alt.ttf);
+}

@@ -1,5 +1,7 @@
 * {
    background-color: #c2f1ff;
+   width:cover; 
+   height:cover;
 }
 #discord {
   border-width: 0px;
@@ -39,4 +41,11 @@ h4.title{
 @font-face{
   font-family: Minecrafter;
   src: url(Minecrafter_Alt.ttf);
+}
+#container{
+  /*Styling for any element with the id="container" */
+          width:1000px; /* The width is fixed by pixels */
+           height:800px; /* The height is fixed by pixels*/
+           color:#fff;
+            
 }

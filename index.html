@@ -3,13 +3,26 @@
 <head>
     <!--This links to the external stylesheet-->
     <link rel="stylesheet" href="index_html.css">
-    <link href="resourcepacks.html">
+    <link href="./resourcepacks.html">
     <title>CraftYourWorld</title>
     <link rel=icon href=.assets/favicon.ico type=image/x-icon>
     <link rel="shortcut icon" href=CraftYourWorld.tk/assets/favicon.ico type=image/x-icon>
     <link rel="shortcut icon" href=CraftYourWorld.tk/assets/favicon.ico type=image/vnd.microsoft.icon>
 </head>
 <style>
+
+.discord {
+  border-width: 2px;
+  background: transparent;
+  float: center;
+}
+
+.discord1 {
+  border-width: 0px;
+  background: transparent;
+  float: right;
+}
+
     .button1 {
   background-color: white;
   color: rgb(70, 70, 70);
@@ -82,15 +95,21 @@ sub{
   </div>
 
   
-<div><h4><a href="pages/resourcepacks.html" target="_self"><button class="button1">Resourcepacks</button></a></h4></div>
+<div><h4><a href="./resourcepacks.html" target="_self"><button class="button1">Resourcepacks</button></a></h4></div>
 <h4><button class="button2"> Datapack </button></h4>
 <br>
 <br>
-
-<iframe id="discord" id="discord" src="https://discord.com/widget?id=789811806817878036&theme=dark" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" width= 350; height= 500;></iframe>
-
+<div>
+<iframe class="discord1" src="https://discord.com/widget?id=789811806817878036&theme=dark" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" width= 350; height= 500;></iframe>
+</div>
 <br>
-<a href="https://discord.gg/ymR7f4m9sv" ><img id="discord" src="assets/discord.png" alt="Join us on Discord"></a>
+<div>
+<a href="https://discord.gg/ymR7f4m9sv" ><img class="discord" src="assets/discord.png" alt="Join us on Discord"></a>
+</div>
+<div>
+  <a href=./terms.html></a>
+</div>
+
 
 </body>
 </html>

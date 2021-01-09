@@ -3,5 +3,5 @@ This will eventually be the website for Craft Your World. This is still a work i
 
 ## Steps to completion
 - [ ] Make sure the site looks good.
-- [ ] Figure out how to add pages without a separate repo.
+- [x] Figure out how to add pages without a separate repo.
 - [ ] Use some JavaScript to make the site more dynamic.

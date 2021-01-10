@@ -1,0 +1,14 @@
+[
+	{
+		"id": "aesthetic",
+		"name": "Aesthetic"
+	},
+	{
+		"id": "utility",
+		"name": "Utility"
+	},
+	{
+		"id": "fixes",
+		"name": "Fixes & Inconsistencies"
+	}
+]

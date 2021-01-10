@@ -1,5 +1,4 @@
 * {
-   background-color: #c2f1ff;
    width:cover; 
    height:cover;
 }
@@ -9,14 +8,15 @@
   text-align: right;
 }
 body {
+  background-image: url("./assets/background.png") ;
+      background-repeat: repeat;
   text-align: center;
-  color: aliceblue;
+
 }
 #logo {
   width: 200;
   height: 200;
   text-align: center;
-  background-color:#c2f1ff;
   background-size: cover;
   padding:0px 200px;
 }
@@ -38,14 +38,266 @@ h4.title{
   color:#1e90ff;
   text-align: center;
 }
-@font-face{
-  font-family: Minecrafter;
-  src: url(Minecrafter_Alt.ttf);
-}
 #container{
   /*Styling for any element with the id="container" */
           width:1000px; /* The width is fixed by pixels */
            height:800px; /* The height is fixed by pixels*/
            color:#fff;
             
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+#pointer {
+  cursor: pointer;
+}
+
+
+
+.title {
+	font-size: xx-large;
+	padding-left: 1vw;
+}
+
+.float-my-children > * {
+	float:left;
+    margin-right:5px;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.middle-div {
+	position: relative;
+	top: 50%;
+}
+
+.hr {
+	height:2px;
+	border-width:0;
+	background-color:var(--separator);
+}
+
+.description {
+	font-size: large;
+	padding-left: 1vw;
+}
+
+.sidebar {
+	margin-left: 75%;
+	width: 25%;
+}
+
+.sidebar > * {
+	width: 25%;
+	margin: 0;
+	height: auto; /* Full height */
+	position: fixed; /* Make it stick, even on scroll */
+}
+
+.navbar {
+	list-style-type: none;
+	background-color: var(--primary-background);
+	overflow: auto; /* Enable scrolling if the sidenav has too much content */
+	border-radius: 10px;
+	padding: 0 16px 0 0;
+}
+
+.navbar > li {
+	display: block;
+	padding: 8px 0 8px 16px;
+	text-align:center;
+	cursor: pointer;
+}
+
+.primary-navbar-item {
+	background-color: var(--emphasis-background);
+}
+
+.secondary-navbar-item:hover {
+	background-color: var(--secondary-background);
+}
+
+.navbar-link {
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.primary-navbar-link {
+	color: var(--font-color);
+}
+
+.secondary-navbar-link {
+	color: var(--font-color);
+}
+
+.social-icon {
+	font-size: x-large;
+}
+
+.upload-container {
+	overflow: auto; /* Enable scrolling if the sidenav has too much content */
+	bottom: 16px;
+	border-radius: 10px;
+	background-color: var(--primary-background);
+	padding: 16px;
+	line-height: 1.6;
+	list-style-type: none;
+	padding: 0 16px 0 0;
+}
+
+.upload-container > li {
+	display: block;
+	padding: 8px 0 8px 16px;
+}
+
+.upload-title {
+	font-size: large;
+	background-color: var(--emphasis-background);
+	text-align: center;
+}
+
+.grid-container {
+	display: grid;
+	width: 75%;
+	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+}
+
+.selection-box {
+	width: auto;
+	border-radius: 2vw;
+	padding: 5px;
+	margin: 20px;
+}
+
+.selectable {
+	cursor: pointer;
+}
+
+.pack-height {
+	height: 180px;
+}
+
+.credits-height {
+	height: auto;
+}
+
+.section-header {
+	height: min-content;
+	padding: 0;
+	grid-column: 1 / -1;
+	text-align: center;
+}
+
+.section-name {
+	font-size: x-large;
+}
+
+.section-name-with-description {
+	margin-bottom: 0px;
+}
+
+.section-desciption {
+	font-size: large;
+	margin-top: 0px;
+}
+
+.unselected {
+	background-color: var(--secondary-background);
+}
+
+.selected {
+	background-color: var(--emphasis-background);
+	color: var(--font-color);
+}
+
+.not-selectable {
+	cursor: not-allowed;
+	background-color: var(--unselectable-color);
+}
+
+.pack-icon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	max-height: 100px;
+	max-width: 200px;
+}
+
+.pack-label {
+	text-align: center;
+	font-size: large;
+}
+
+.pack-desc {
+	text-align: center;
+	font-size: medium;
+	margin-bottom: 5px;
+}
+
+.pack-author {
+	text-align: center;
+	font-size: medium;
+	color: var(--secondary-font-color);
+	margin-top: 5px;
+}
+
+.credits-desc {
+	text-align: center;
+	font-size: medium;
+}
+
+a, a:hover, a:active, a:visited {
+	color: var(--font-color);
+}
+
+.toast {
+	width: fit-content;
+	max-width: 40%;
+	padding: 0.8vw;
+	border-radius: 0.4vw;
+	text-align: center;
+	position: fixed;
+	right: 5%;
+	bottom: 5%;
+	color: var(--toast-font-color);
+}
+
+.success-toast {
+	background-color: var(--success-background);
+}
+
+.fail-toast {
+	background-color: var(--fail-background);
+}
+
+.invisible {
+	display: none;
 }

@@ -1,5 +1,4 @@
 * {
-   background-color: #c2f1ff;
    width:cover; 
    height:cover;
 }
@@ -9,14 +8,15 @@
   text-align: right;
 }
 body {
+  background-image: url("./assets/background.png") ;
+      background-repeat: repeat;
   text-align: center;
-  color: aliceblue;
+
 }
 #logo {
   width: 200;
   height: 200;
   text-align: center;
-  background-color:#c2f1ff;
   background-size: cover;
   padding:0px 200px;
 }

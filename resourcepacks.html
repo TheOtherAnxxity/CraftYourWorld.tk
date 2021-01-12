@@ -92,6 +92,54 @@ body{
   background-color:#3a3a3a;
 
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.spacing{
+  margin-left: auto;
+}
+
+
+
+
+
+
+
 
 
 
@@ -112,59 +160,197 @@ body{
     
     <!--1.14-->
     <div id="1.14" class="tabcontent">
+   
       <h1 class="selection">1.14</h1>
+    
       <br>
+    
       <br>
+    
       <h1 class="selection">HUD</h1>
+   
+      <br>
+   
+    <div class="tooltip">
+   
+      <a href="./minecraft packs/resourcepacks/1.14/ping indicators.zip" download="CYW0001(1.14)"><button class="button"><img src="./assets/pack images/PING_indicator.gif" class="gif" height="100"><br>Ping Indicators</button></a>
+    
+      <span class="tooltiptext">Dance your ping</span>
+   
+    </div>
+   
     <br>
-      <a href="./minecraft packs/resourcepacks/1.14/ping indicators.zip" download="CYW0001(1.14)"><button class="button">Ping Indicators</button></a>
-    <br>
+     
       <h1 class="selection">Fixes</h1>
-    <br>
-      <a href="./minecraft packs/resourcepacks/1.14/Bow Fix.zip" download="CYW0002(1.14)"><button class="button"><img src="assets/Bow Pulling.gif" class="gif" width="70" height="70"><br>Bow Fix</button></a>
+   
+      <br>
+      
+      <div class="tooltip">
+    
+        <a href="./minecraft packs/resourcepacks/1.14/Bow Fix.zip" download="CYW0002(1.14)"><button class="button"><img src="./assets/pack images/Bow Pulling.gif" class="gif" width="70" height="70"><br>Bow Fix</button></a>
+    
+<span class="tooltiptext">Fixed the missing feather in the arrow's tail on the bow</span>
+
+      </div>
+      
+     <br>
+     
+      <h1 class="selection">Background</h1>
+     
+      <br>
+
+      <span class="spacing">
+      
+      <a href="./minecraft packs/resourcepacks/1.14/Amethyst Block Background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/amethyst.png" width="70" height="70"><br>Amethyst</button></a>  
+           
+      <a href="./minecraft packs/resourcepacks/1.14/Calcite Options-background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/calcite.png" width="70" height="70"><br>Calcite</button></a>   
+           
+      <a href="./minecraft packs/resourcepacks/1.14/Copper Block options_background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/copper block.png" width="70" height="70"><br>Copper Block</button></a>
+    
+    </span>
+
     </div>
     
     <!--1.15-->
     <div id="1.15" class="tabcontent">
+      
       <h1 class="selection">1.15</h1>
+      
       <br>
+     
       <br>
+     
       <h1 class="selection">HUD</h1>
-    <br>
-      <a href="./minecraft packs/resourcepacks/1.15/ping indicators.zip" download="CYW0001(1.15)"><button class="button">Ping Indicators</button></a>
-    <br>
-      <h1 class="selection">Fixes</h1>
-    <br>
-      <a href="./minecraft packs/resourcepacks/1.15/Bow Fix.zip" download="CYW0002(1.15)"><button class="button"><img src="assets/Bow Pulling.gif" class="gif" width="70" height="70"><br>Bow Fix</button></a>
+   
+      <br>
+    
+      <div class="tooltip">
+
+    <a href="./minecraft packs/resourcepacks/1.15/ping indicators.zip" download="CYW0001(1.15)"><button class="button"><img src="./assets/pack images/PING_indicator.gif" class="gif" height="100"><br>Ping Indicators</button></a>
+    
+ <span class="tooltiptext">Dance your ping</span>
+
+</div>   
+
+      <br>
+    
+    <h1 class="selection">Fixes</h1>
+   
+      <br>
+     
+    <a href="./minecraft packs/resourcepacks/1.15/Bow Fix.zip" download="CYW0002(1.15)"><button class="button"><img src="./assets/pack images/Bow Pulling.gif" class="gif" width="70" height="70"><br>Bow Fix</button></a>
+     
+      <br>
+      
+      <h1 class="selection">Background</h1>
+     
+      <br>
+
+      <span class="spacing">
+     
+      <a href="./minecraft packs/resourcepacks/1.15/Amethyst Block Background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/amethyst.png" width="70" height="70"><br>Amethyst</button></a>   
+      
+      <a href="./minecraft packs/resourcepacks/1.15/Calcite Options-background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/calcite.png" width="70" height="70"><br>Calcite</button></a>   
+     
+      <a href="./minecraft packs/resourcepacks/1.15/Copper Block options_background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/copper block.png" width="70" height="70"><br>Copper Block</button></a>
+    
+    </span>
+
     </div>
     
     <!--1.16-->
     <div id="1.16" class="tabcontent">
+     
       <h1 class="selection">1.16</h1>
+    
       <br>
+    
       <br>
+    
       <h1 class="selection">HUD</h1>
+    
       <br>
-      <a href="./minecraft packs/resourcepacks/1.16/ping indicators.zip" download="CYW0001(1.16)"><button class="button">Ping Indicators</button></a>
-    <br>
-    <h1 class="selection">Fixes</h1>
-      <br>
-      <a href="./minecraft packs/resourcepacks/1.16/Bow Fix.zip" download="CYW0002(1.16)"><button class="button"><img src="assets/Bow Pulling.gif" class="gif" width="70" height="70"><br>Bow Fix</button></a>
+
+      <div class="tooltip">
+    
+      <a href="./minecraft packs/resourcepacks/1.16/ping indicators.zip" download="CYW0001(1.16)"><button class="button"><img src="./assets/pack images/PING_indicator.gif" class="gif" height="100"><br>Ping Indicators</button></a>
+    
+<span class="tooltiptext">Dance your ping</span>
+
     </div>
+
+      <br>
+    
+    <h1 class="selection">Fixes</h1>
+    
+    <br>
+    
+      <a href="./minecraft packs/resourcepacks/1.16/Bow Fix.zip" download="CYW0002(1.16)"><button class="button"><img src="./assets/pack images/Bow Pulling.gif" class="gif" width="70" height="70"><br>Bow Fix</button></a>
+    
+      <br>
+    
+      <h1 class="selection">Background</h1>
+    
+      <br>
+
+      <span class="spacing">
+    
+      <a href="./minecraft packs/resourcepacks/1.16/Amethyst Block Background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/amethyst.png" width="70" height="70"><br>Amethyst</button></a>    
+    
+      <a href="./minecraft packs/resourcepacks/1.16/Calcite Options-background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/calcite.png" width="70" height="70"><br>Calcite</button></a>   
+    
+           <a href="./minecraft packs/resourcepacks/1.16/Copper Block options_background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/copper block.png" width="70" height="70"><br>Copper Block</button></a>
+    
+          </span>
+
+          </div>
     
     <!--1.17-->
     <div id="1.17" class="tabcontent">
+  
       <h1 class="selection">1.17</h1>
+  
       <br>
+  
       <br>
+  
       <h1 class="selection">HUD</h1>
+  
       <br>
-      <a href="./minecraft packs/resourcepacks/1.17/ping indicators.zip" download="CYW0001(1.17)"><button class="button">Ping Indicators</button></a>
-    <br>
+
+      <div class="tooltip">
+  
+      <a href="./minecraft packs/resourcepacks/1.17/ping indicators.zip" download="CYW0001(1.17)"><button class="button"><img src="./assets/pack images/PING_indicator.gif" class="gif" height="100"><br>Ping Indicators</button></a>
+  
+<span class="tooltiptext">Dance your ping</span>
+      </div>
+
+      <br>
+  
     <h1 class="selection">Fixes</h1>
+  
+    <br>
+  
+      <a href="./minecraft packs/resourcepacks/1.17/Bow Fix.zip" download="CYW0002(1.17)"><button class="button"><img src="./assets/pack images/Bow Pulling.gif" class="gif" width="70" height="70"><br>Bow Fix</button></a>
+  
       <br>
-      <a href="./minecraft packs/resourcepacks/1.17/Bow Fix.zip" download="CYW0002(1.17)"><button class="button"><img src="assets/Bow Pulling.gif" class="gif" width="70" height="70"><br>Bow Fix</button></a>
-    </div>
+  
+    <h1 class="selection">Background</h1>
+  
+    <br>
+
+    <span class="spacing">
+  
+      <a href="./minecraft packs/resourcepacks/1.17/Amethyst Block Background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/amethyst.png" width="70" height="70"><br>Amethyst</button></a> 
+  
+      <a href="./minecraft packs/resourcepacks/1.17/Calcite Options-background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/calcite.png" width="70" height="70"><br>Calcite</button></a> 
+  
+            <a href="./minecraft packs/resourcepacks/1.17/Copper Block options_background.zip" download="CYW0003(1.17)"><button class="button"><img src="./assets/pack images/copper block.png" width="70" height="70"><br>Copper Block</button></a>
+  
+    </span>
+
+          </div>
+  
   </div>
   
 </body>

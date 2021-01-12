@@ -71,3 +71,6 @@ h4.title{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+#pointer {
+  cursor: pointer;
+}

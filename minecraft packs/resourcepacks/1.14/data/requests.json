@@ -1,0 +1,18 @@
+[
+	{
+		"url": "/api/modules/1.14",
+		"file": "./minecraft packs/resourcepacks/1.14/data/modules.json"
+	},
+	{
+		"url": "/api/categories",
+		"file": "./minecraft packs/resourcepacks/1.14/data/categories.json"
+	},
+	{
+		"url": "/api/credits",
+		"file": "storage/data/credits.json"
+	},
+	{
+		"url": "/",
+		"file": "./index.html"
+	}
+]
